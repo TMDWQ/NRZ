@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@mipmap/ld1" android:duration="@integer/time"/>
+    <item android:drawable="@mipmap/ld2" android:duration="@integer/time"/>
+    <item android:drawable="@mipmap/ld3" android:duration="@integer/time"/>
+    <item android:drawable="@mipmap/ld4" android:duration="@integer/time"/>
+    <item android:drawable="@mipmap/ld5" android:duration="@integer/time"/>
+
+    <item android:drawable="@mipmap/ld6" android:duration="@integer/time"/>
+    <item android:drawable="@mipmap/ld7" android:duration="@integer/time"/>
+    <item android:drawable="@mipmap/ld8" android:duration="@integer/time"/>
+    <item android:drawable="@mipmap/ld9" android:duration="@integer/time"/>
+    <item android:drawable="@mipmap/ld10" android:duration="@integer/time"/>
+
+    <item android:drawable="@mipmap/ld11" android:duration="@integer/time"/>
+    <item android:drawable="@mipmap/ld12" android:duration="@integer/time"/>
+    <item android:drawable="@mipmap/ld13" android:duration="@integer/time"/>
+    <item android:drawable="@mipmap/ld14" android:duration="@integer/time"/>
+    <item android:drawable="@mipmap/ld15" android:duration="@integer/time"/>
+
+    <item android:drawable="@mipmap/ld16" android:duration="@integer/time"/>
+    <item android:drawable="@mipmap/ld17" android:duration="@integer/time"/>
+    <item android:drawable="@mipmap/ld18" android:duration="@integer/time"/>
+    <item android:drawable="@mipmap/ld19" android:duration="@integer/time"/>
+    <item android:drawable="@mipmap/ld20" android:duration="@integer/time"/>
+
+</animation-list>

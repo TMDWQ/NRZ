@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="添加订单成功"
+        android:textColor="#111"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:padding="10dp"
+        />
+
+   <LinearLayout
+       android:id="@+id/back_home"
+       android:layout_width="match_parent"
+       android:orientation="horizontal"
+       android:gravity="center_vertical"
+       android:layout_height="wrap_content"
+       android:background="#74B458"
+       >
+       <ImageView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:src="@mipmap/church"
+           android:padding="10dp"
+           />
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:text="回到主目录"
+           android:textSize="14sp"
+           android:textColor="#fff"
+           android:gravity="center"
+           />
+
+   </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/scan_order"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_height="wrap_content"
+        android:background="#74B458"
+        android:layout_marginTop="5dp"
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/firework"
+            android:padding="10dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="查看订单"
+            android:textSize="14sp"
+            android:textColor="#fff"
+            android:gravity="center"
+            android:id="@+id/textView2" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/back"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_height="wrap_content"
+        android:background="#74B458"
+        android:layout_marginTop="5dp"
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/xxxx"
+            android:padding="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="返回当前页面"
+            android:textSize="14sp"
+            android:textColor="#fff"
+            android:gravity="center"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
